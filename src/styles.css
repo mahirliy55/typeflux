@@ -1,0 +1,20 @@
+/* Typewriter cursor blinking animation */
+.typerly-cursor {
+  animation: typerly-blink 1s infinite;
+  opacity: 1;
+}
+
+@keyframes typerly-blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+/* Default typewriter container styles */
+.typerly-container {
+  display: inline-block;
+  font-family: inherit;
+}
