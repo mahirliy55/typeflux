@@ -21,6 +21,7 @@ build/
 # IDE files
 .vscode/
 .idea/
+.cursor/
 *.swp
 *.swo
 *~
