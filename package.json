@@ -1,29 +1,51 @@
 {
   "name": "typerly",
   "version": "1.0.0",
-  "description": "A modern, dependency-free React Typewriter component",
+  "description": "A beautiful, zero-dependency React typewriter component with TypeScript support",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "react",
     "typescript",
     "typewriter",
     "animation",
-    "component"
+    "component",
+    "typing",
+    "text-animation",
+    "ui-component",
+    "zero-dependency",
+    "react-component",
+    "frontend",
+    "javascript",
+    "npm-package"
   ],
-  "author": "Your Name",
+  "author": {
+    "name": "Mahir Liy",
+    "url": "https://github.com/mahirliy55"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git", 
+    "url": "git+https://github.com/mahirliy55/typeflux.git"
+  },
+  "homepage": "https://github.com/mahirliy55/typeflux#readme",
+  "bugs": {
+    "url": "https://github.com/mahirliy55/typeflux/issues"
+  },
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
